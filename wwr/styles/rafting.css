@@ -165,6 +165,7 @@ footer {
     white-space: nowrap;
     margin-left: 10px;
     justify-content: space-around;
+    margin-left: auto;
     text-align: center;
     background-color: var(--primary-color);
     color: #e8c722;
