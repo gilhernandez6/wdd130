@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sansation, sans-serif;
+    font-size: 12pt;
+    color: #000;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+
+header {
+    margin: 15px;
+    width: 500px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 18pt;
+    text-align: center;
+}
+
+form {
+    width: 550px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid rgb(84, 9, 84) ;
+    border-radius: 5px;
+    background-color: lavender;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 3px;
+    margin: 2px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 13pt;
+    padding: 2px 5px 2px 5px;
+}
+
+label {
+    display: grid;
+    margin: 8px;
+}
+
+.contact input {
+    height: 25px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+} 
+
+.questions select {
+    width: 80%;
+    justify-self: left;
+    transform: scale(1.2);
+}
+
+input[type="checkbox"] {
+    justify-self: left;
+    transform: scale(1.4);
+    vertical-align: bottom;
+}
+
+.questions textarea {
+    height: 95px;
+    margin-left: 9px;
+    margin-right: 8px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+    background-color: rgb(177, 177, 242);
+    font-family: Sansation, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    width: 100px;
+    height: 34px;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(94, 31, 187);
+    color: white;
+}
+
+footer {
+    margin: 15px;
+    width: 500px;
+    text-align: center;
+    font-size: 9pt;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+
+}
