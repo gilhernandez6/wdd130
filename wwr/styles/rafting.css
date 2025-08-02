@@ -259,7 +259,7 @@ fieldset {
     justify-content: space-between;
     border: 0; 
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 form textarea {
