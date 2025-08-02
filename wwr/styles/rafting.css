@@ -250,6 +250,7 @@ footer p {
 fieldset {
     border: 0;
     font-size: 11pt;
+    font-family: "Lexend Zetta", sans-serif;
 }
 .form {
     grid-column: 1 / 3;
@@ -262,6 +263,22 @@ fieldset {
     margin-top: 10px;
 }
 
+.name, .email {
+    font-size: 11pt;
+    width: 70%;
+    margin: 3px;
+    color: var(--accent2-color);
+    margin: 10px;
+    font-weight: 600;
+}
+
+.name input {
+    width: 60%;
+}
+
+.email input {
+    width: 52%;
+}
 form textarea {
     font-size: 11pt;
     width: 70%;
@@ -272,12 +289,14 @@ form textarea {
 .topic {
     font-weight: 700;
     color: var(--accent2-color);
-    font-style: italic;
+    margin-left: 10px;
 }
+
 .radio {
     font-size: 10pt;
     margin: 7px;
     color: var(--accent2-color);
+    margin-left: 20px;
 }
 
 .checkbox {
