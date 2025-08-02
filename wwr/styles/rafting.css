@@ -87,7 +87,6 @@ section {
     position: relative;
     margin-top: 20px;
 }
-
 .history {
     max-height: 420px;
     grid-template-columns: 2fr 1fr 2fr;
@@ -108,7 +107,7 @@ section {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 3;  
 }
 
 .history img {
@@ -131,7 +130,7 @@ section {
 
 .adventure {
     grid-template-rows: 20% 1fr;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr) ;
     max-height: 280px;
     margin-bottom: 20px;
 }
@@ -150,7 +149,6 @@ figure {
     margin-top: 17px;
     margin-bottom: 20px;
 }
-
 figure img {
     width: 100px;
     height: 100px;
@@ -175,7 +173,6 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 footer p {
     font-size: 8pt;
     text-align: left;
@@ -188,19 +185,16 @@ footer p {
     margin-top: 15px;
     margin-left: 4px;
 }
-
 .social-media a {
     text-decoration: none;
     margin-left: 10px;
 }
-
-.social-media img {
+.social-media img{
     width: 30px;
     height: auto;
     padding: 3px;
     margin-top: 5px;
 }
-
 .hero {
     position: relative;
 }
@@ -245,7 +239,6 @@ footer p {
     color: var(--secondary-color);
 
 }
-
 .info p {
     margin-left: 100px;
     font-family: "Permanent Marker", sans-serif;
@@ -264,7 +257,6 @@ footer p {
 .email a {
     font-size: 8pt;
 }
-
 .phone {
     font-size: 11pt;
     font-weight: 600;
@@ -275,19 +267,17 @@ footer p {
 .phone a {
     font-size: 8pt;
 }
-
 fieldset {
     border: 0;
     font-size: 11pt;
 }
-
 .form {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
     font-size: 10pt;
     text-align: left;
     justify-content: space-between;
-    border: 0;
+    border: 0; 
     margin-left: 60px;
     margin-top: 40px;
 }
@@ -297,14 +287,13 @@ form textarea {
     width: 70%;
     margin: 3px;
     font-family: "Lexend Zetta", sans-serif;
-}
+ }
 
 .topic {
     font-weight: 700;
     color: var(--accent2-color);
     font-style: italic;
 }
-
 .radio {
     font-size: 10pt;
     margin: 7px;
@@ -338,7 +327,6 @@ fieldset button {
 button:hover {
     background-color: var(--accent2-color);
 }
-
 .map {
     grid-template-columns: 60% 40%;
     grid-template-rows: 1fr .5fr;
@@ -352,7 +340,7 @@ button:hover {
     margin: 10px;
 }
 
-.map figcaption {
+.map label {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-weight: 700;
@@ -367,8 +355,7 @@ button:hover {
     margin-top: 30px;
     margin-left: 20px;
     font-size: 10pt;
-}
-
+}   
 .employees {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 25% 1fr;
@@ -376,8 +363,7 @@ button:hover {
 }
 
 .employees h2 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 1 / 4;
     text-align: center;
     font-size: 25pt;
     text-decoration: underline;
@@ -386,4 +372,6 @@ button:hover {
 .employees figure {
     font-size: 10pt;
     font-weight: 600;
+    inline-size: 160px;
+    margin-left: 60px;
 }
