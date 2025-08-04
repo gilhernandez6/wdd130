@@ -70,6 +70,17 @@ article {
     margin: 0 auto;
 }
 
+.hero img {
+    width: 840px;
+    height: 550px;
+}
+
+.hero {
+    background-image: url("../images/hero-po1.jpg");
+    background-size: cover;
+    width: 840px;
+    height: 550px;
+}
 .motto {
     position: absolute;
     top: 65px;
@@ -80,6 +91,7 @@ article {
     opacity: .6;
     background-color: var(--accent2-color);
     color: #000
+
 }
 
 section {
@@ -196,7 +208,7 @@ footer p {
     position: relative;
 }
 
-.hero img {
+.motto img {
     display: block;
     width: 100%;
     height: auto;
