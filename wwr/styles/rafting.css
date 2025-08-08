@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Permanent+Marker&display=swap');
 
+/* main style */
 :root {
     --primary-color: #39531C;
     --secondary-color: #535252;
-    --accent1-color: #202EE9;
-    --accent2-color: #e8c722;
+    --accent1-color: #000;
+    --accent2-color: #fff;
 }
 
 * {
@@ -22,72 +23,59 @@ body {
 
 header,
 main,footer {
-    width: 1100px;
+    width: 100vw;
     height: auto;
     margin: 0 auto;
-}
-
-header {
-    display: grid;
-    grid-template-columns: 250px 1fr 1fr;
-    align-items: center;
-    font-size: 12px;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    margin-bottom: 20px;
-    height: 100px;
-}
-
-header img {
-    height: 90px;
-    margin: 5px 10px 5px 150px;
-
-}
-
-h1,
-h2 {
-    font-family: 'Permanent Marker', sans-serif;
-}
-
-h1 {
-    position: absolute;
-    top: 30px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: white;
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-nav {
-    display: flex;
 }
 
 nav,
 p,
 section,
 article {
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 
+h1,
+h2 {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+                            /* About Us beginning */
+/* header style */
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    font-size: 12px;
+    background-color: rgb(57, 83, 28, .2);
+    color: var(--accent2-color);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 8vh;
+    width: 100%;
+}
+
+header img {
+    height: 80px;
+    margin: 5px 10px 5px 250px;
+}
+
 nav {
-    width: 90%;
-    justify-content: space-around;
-    margin-left: 140px;
+    display: grid;
+    margin-left: 600px;
+}
+
+.button {
+    width: 100%;
+    justify-content: space-evenly;
     font-size: 12pt;
-    text-decoration: underline;
+    display: inline-block;
 }
 
 .button a:link, .button a:visited {
-    background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 8px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
 }
@@ -97,15 +85,43 @@ nav {
     background-color: var(--accent2-color);
     background-size: cover;
 }
+*/
+/* main section style */
+section {
+    display: grid;
+    position: relative;
+    margin-top: 20px;
+        font-weight: 100;
+    letter-spacing: 3px;
+}
 
-.hero img {
-    width: 1100px;
-    height: 550px;
+/* hero style */
+h1 {
+    position: absolute;
+    top: 70px;
+    padding: 16px;
+    text-align: left;
+    opacity: 0.7;
+    color: var(--accent2-color);
+    font-size: 30pt;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 30vh;
+    width: 700px;
+    height: 400px;   
+
 }
 
 .hero {
     background-image: url("../images/hero-po1.jpg");
     background-size: cover;
+    width: 1100px;
+    height: 550px;
+}
+
+.hero img {
     width: 1100px;
     height: 550px;
 }
@@ -123,13 +139,7 @@ nav {
 
 }
 
-section {
-    display: grid;
-    position: relative;
-    margin-top: 20px;
-        font-weight: 100;
-    letter-spacing: 3px;
-}
+/* history section style */
 .history {
     max-height: 460px;
     grid-template-columns: 2fr 1fr 2fr;
@@ -138,6 +148,8 @@ section {
     background-color: rgb(83, 82, 82, .2);
     
 }
+
+/* history style */
 
 h2 {
     text-align: center;
@@ -173,6 +185,7 @@ h2 {
     font-weight: 300;
 }
 
+/* advernture section style */
 .adventure {
     grid-template-rows: 20% 1fr;
     grid-template-columns: repeat(5, 1fr) ;
@@ -181,6 +194,7 @@ h2 {
     background-color: rgb(83, 82, 82, .2);
 }
 
+/* adventure style */
 .adventure h2 {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
@@ -216,6 +230,7 @@ figure figcaption {
     width: 100px;
 }
 
+/* footer section style */
 footer {
     display: flex;
     height: 45px;
@@ -229,6 +244,8 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* footer style */
 footer p {
     font-size: 8pt;
     text-align: center;
@@ -254,6 +271,7 @@ footer p {
     width: 20px;
     height: auto;
 }
+
 .hero {
     position: relative;
 }
@@ -264,6 +282,8 @@ footer p {
     height: auto;
 }
 
+                                /* Contact Page beginning */
+/* main section style */
 .info {
     display: grid;
     grid-template-columns: 35% 65%;
@@ -288,10 +308,10 @@ footer p {
 .info h1 {
     font-size: 25pt;
     font-weight: 300;
-    margin-top: 0;
+    margin-top: 100px;
 }
 
-fieldset {
+.info fieldset {
     font-size: 11pt;
     font-family: "Lexend Zetta", sans-serif;
     background-color:rgb(83, 82, 82, 0.7);
@@ -380,7 +400,9 @@ button:hover {
     background-color: var(--accent2-color);
 }
 
+/* map section style */
 .map {
+    display: grid;
     grid-template-columns: 55% 45%;
     grid-template-rows: repeat(6, 1fr);
     background-color:rgb(83, 82, 82, 0.2);
@@ -390,6 +412,7 @@ button:hover {
     padding: 10px;
 }
 
+/* map style */
 .map iframe {
     grid-column: 1 / 2;
     grid-row: 1 / 7;
@@ -426,13 +449,16 @@ button:hover {
     background-size: cover;
 }
 
+/* employees section style */
 .employees {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 25% 1fr;
     background-color:rgb(83, 82, 82, 0.2);
     height: 300px;
 }
 
+/* employees style */
 .employees h2 {
     grid-column: 1 / 4;
     font-size: 25pt;
@@ -452,3 +478,143 @@ button:hover {
     width: 85%;
 }
  
+                            /* index page beginning */
+/* main section style */
+.background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.background img {
+    grid-column: 1 / 4;
+    width: 100vw;
+    height: 65vh;
+}
+.gradient {
+    background-image: linear-gradient(to right, #000, rgb(80, 78, 78, 0));
+    grid-column: 1 / 2;
+    position: absolute;
+    grid-row: 1/2;
+    height: 65vh;
+}
+
+.activities {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    float: left;
+}
+.hiking img, .camping img, .water-act img {
+    width: 20vh;
+    height: 20vh;
+    grid-row: 1/3;
+    grid-column: 1 / 4;
+    margin-left: 15vh;
+    align-items: center;
+    display: block;
+}
+
+.hiking figcaption, .camping figcaption, .water-act figcaption {
+    font-size: 10pt;
+    text-align: center;
+    align-content: center;
+    display: block; 
+    width: 250px;
+    height: 18vh; 
+    margin-left: 120px;
+}
+
+.hiking button, .camping button, .water-act button {
+    height: 6vh;
+    width: 7vw;
+    background-color: rgb(57, 83, 28, .4);
+    font-family: "Lexend Zetta", sans-serif;
+    font-size: 10pt;
+    display: flex;
+    margin-left: 180px;
+    text-align: center;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.hiking button a:link, .camping button a:link, .water-act button a:link {
+    color: var(--accent2-color);
+    text-decoration: none;
+    display: flex;
+}
+
+.hiking button:hover, .camping button:hover, .water-act button:hover {
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    background-size: cover;
+}
+
+.newsletter {
+    background-color: none;
+    margin-left: 30px;
+    grid-column: 4/5;
+    margin-right: 50px;
+    margin-top:90px;
+    height: 25vh;
+    grid-row: 2/3;
+    font-family: "Lexend Zetta", sans-serif;
+    background-color: rgba(57, 83, 28, .1);
+}
+
+.newsletter-field{
+    height: 25vh;
+    width: 48vh;
+    border: none;
+}
+
+.newsletter h3 {
+    font-size: 17pt;
+    color: var(--secondary-color);
+    margin-left:5px;
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.newsletter h4 {
+    font-size: 10pt;
+    text-align: center;
+    font-weight: 300;
+    margin: 2px;
+}
+
+.index-name, .index-email {
+    margin-left:5px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 12pt;
+    color: white;
+    border: none;
+    height: 5vh;
+}
+
+.index-name textarea, .index-email textarea {
+    height: 3vh;
+    border: none;
+    align-content: center;
+}
+
+.news-button {
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    margin-left: 85px;
+    background-color: rgb(57, 83, 28, .4);
+    border:hidden;
+    color: var(--secondary-color);
+}
+
+.news-button:hover {
+    color: var(--secondary-color);
+    background-color: rgb(83, 82, 82, .1) ;
+    background-size: cover;
+}
+
+                            /* trips page beginning */
+/* main section style */
+
