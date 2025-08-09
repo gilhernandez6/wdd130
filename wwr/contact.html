@@ -9,7 +9,7 @@
     <title>White Water Rafting Site Contact Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -24,20 +24,16 @@
         </nav>
     </header>
     <main>
-        <div class="background">
+        <div class="hero">
             <img src="images/index-hero.jpg" alt="">
             <p class="gradient"></p>
             <blockquote class="gradient-heading">
-                <h1>
-                    Plan your next <br>
-                    <span style="font-style: italic; font-weight: 500;">adventure</span><br>
-                    with us
-                </h1>
+                <h1><strong>Wilderness Wave Riders</strong> <br>Contact Us</h1>
             </blockquote>
         </div>
-            <article class="form-article">
+            <article class="form-container">
             <form class="form">
-                <fieldset>
+                <fieldset class="form-fieldset">
                     <div class="name">
                         <label for="fullname">Full Name</label>
                         <input type="text" id="fullname" name="fullname">
@@ -61,7 +57,7 @@
                         <input type="radio" name="suggestion" id="suggestion">
                         <label for="suggestion">Website Suggestion</label>
                     </div>
-                    <div>
+                    <div class="contact-form-message">
                         <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
                         <label for="message"></label>
                     </div>
@@ -69,36 +65,45 @@
                         <input type="checkbox" id="sub" name="sub">
                         <label for="sub">Get our monthly newsletter</label>
                     </div>
-                    <button type="submit">SEND</button>
+                    <button type="submit">Message Us</button>
                 </fieldset>
             </form>
+            <article class="form-title">
+                <h2><strong>Send a message</strong></h2>
             </article>
-        </section>
-        <section class="map">
-            <iframe
+            <article class="map-title">
+                <h2>Our location</h2>
+            </article>
+            <iframe class="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d110912.0296792512!2d-76.13467588608877!3d43.93301075950563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1754071326666!5m2!1sen!2sus"
                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <label>Email</label>
-            <a href="mailto:waveriders@gmail.com">waveriders@gmail.com</a>
-            <label>Phone</label>
-            <a href="tel:+13456789100">+1 (345) 678-9100</a>
-            <label>Address</label>
-            <a href="https://maps.app.goo.gl/zAmSuqxtCovRPNr57">Wilderness Wave Riders <br>
-                43°55'43.2"N 76°07'31.8"W <br> New York, USA</a>
-        </section>
+            <article class="info-title">
+                <h2>Contact Info</h2>
+            </article>
+            <label class="contact-email">Email</label>
+            <a class="email-address" href="mailto:waveriders@gmail.com">waveriders@gmail.com</a>
+            <label class="contact-phone">Phone</label>
+            <a class="phone-number" href="tel:+13456789100">+1 (345) 678-9100</a>
+            <label class="contact-address">Address</label>
+                <a class="address" href="https://maps.app.goo.gl/zAmSuqxtCovRPNr57">Wilderness Wave Riders <br>
+                    43°55'43.2"N 76°07'31.8"W <br> New York, USA</a>
+            </article>
+        </div>
         <section class="employees">
+        <article class="team-title">
             <h2>Meet the team</h2>
+        </article>
             <figure>
                 <img src="images/woman-1.jpg" alt="employee 1">
-                <figcaption>Emma Stone <br> CEO</figcaption>
+                <figcaption><strong>Emma Stone</strong><br> CEO</figcaption>
             </figure>
             <figure>
                 <img src="images/woman-2.jpg" alt="employee 2">
-                <figcaption>Jenna Trice <br> CFO</figcaption>
+                <figcaption><strong>Jenna Trice </strong><br> CFO</figcaption>
             </figure>
             <figure>
                 <img src="images/man-7450033_1280-3.jpg" alt="employee 3">
-                <figcaption>Christian Murphy <br> VP</figcaption>
+                <figcaption><strong>Christian Murphy</strong> <br> VP</figcaption>
             </figure>
         </section>
     </main>
@@ -106,7 +111,8 @@
         <p>©2025 | Wilderness Wave Riders | Gilmarie Hernandez | </p>
         <nav class="wireframe">
             <a href="https://app.moqups.com/a6OlD7dbBEKwj3tqy8duMHqCzHc3B9Y4/view/page/ad64222d5">Wireframe</a>
-        <nav class="social-media">
+        </nav>    
+        <nav class="social-container">
             <a href="https://instagram.com">
                 <img src="images/insta.webp" alt="Instagram">
             </a>
