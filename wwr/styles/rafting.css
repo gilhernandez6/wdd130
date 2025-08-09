@@ -709,7 +709,6 @@ button:hover {
 }
 
 .newsletter-container {
-    background-color: none;
     display: grid;
     grid-column: 4 / 5;
     margin-right: 50px;
