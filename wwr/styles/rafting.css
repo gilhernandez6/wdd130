@@ -681,7 +681,7 @@ button:hover {
     font-weight: 200;
 }
 
-.hiking button, .camping button, .water-act button {
+.camping-nav, .hiking-nav, .water-act-nav {
     height: 6vh;
     width: 7vw;
     background-color: rgb(57, 83, 28, .4);
@@ -696,13 +696,23 @@ button:hover {
     color: var(--secondary-color);
 }
 
-.hiking button a:link, .camping button a:link, .water-act button a:link {
+.camping-nav a:link, .hiking-nav a:link, .water-act-nav a:link {
     color: var(--primary-color);
     text-decoration: none;
     display: flex;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15pt;
 }
 
-.hiking button:hover, .camping button:hover, .water-act button:hover {
+.camping-nav a:visited, .hiking-nav a:visited, .water-act-nav a:visited {
+    color: var(--accent2-color);
+}
+.camping-nav:hover, .hiking-nav:hover, .water-act-nav:hover {
     color: var(--accent2-color);
     background-color: var(--primary-color);
     background-size: cover;
