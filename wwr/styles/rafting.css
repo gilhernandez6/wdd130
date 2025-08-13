@@ -310,10 +310,9 @@ article {
 .contact-info form, .homepage-form {
     font-size: 15pt;
     padding-left: 10px;
-    width: cover;
+    width: fit-content ;
     border: none;
     color: var(--accent1-color);
-
 }
 
 .contact-info fieldset {
