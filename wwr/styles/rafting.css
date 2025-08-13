@@ -64,23 +64,34 @@ header img {
 .navigation li{
     flex: .1 1 auto
 }
-.navigation a, nav a {
+
+.navigation a {
     display: block;
-    color: var(--accent2-color);   
-    font-size: 17pt; 
+    color: var(--accent2-color);
+    font-size: 17pt;
     width: 100%;
+    background-color: rgb(57, 83, 28, .3);
 }
 
-nav a:link, button:visited {
+a {
+    display: block;
+    color: var(--primary-color);   
+    font-size: 17pt; 
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+}
+
+a:link, button:visited, a:visited, button:link {
     text-decoration: none;
-    color: var(--accent2-color);  
-    border: none;
+    color: var(--primary-color);  
 }
 
-nav a:hover, .call-to-action a:hover {
+a:hover {
     color: var(--accent1-color);
-    background-color: var(--accent2-color);
-    border: none;
 }
 
 .hero {
@@ -271,15 +282,18 @@ article {
     margin-top: 20px;
     background-color:rgb(83, 82, 82, 0.2);
     z-index: 1;
+    color: var(--accent1-color);
 }
 .contact-info article {
     position: relative;
 }
-.contact-info form, form {
+.contact-info form, .homepage-form form {
     font-size: 15pt;
     padding-left: 10px;
     width: cover;
     border: none;
+    color: var(--accent1-color);
+
 }
 
 .contact-info fieldset {
@@ -294,11 +308,13 @@ article {
     border-left: 3px solid var(--primary-color);
     margin-left: 20px;
     margin-top: -50px;
+    color: var(--accent1-color);
 }
 
 .contact-info fieldset textarea {
     width: 500px;
     height: 150px;
+    font-size: 12pt;
 }    
 
 button{
@@ -422,14 +438,37 @@ footer p {
     padding-left: 30px;
 }
 
-.socialmedia{
-    display: flex;
-    height: 45px;
-    padding: 0;
-}
-
 .socialmedia img {
     width: 40px;
     margin-top: 1px;
     padding: 2px;
+}
+
+.socialmedia {
+    display: flex;
+    font-size: 17pt; 
+    height: auto;
+    width: fit-content;
+    margin-right: 100px;    
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.socialmedia a:link, .socialmedia a:visited {
+    text-decoration: none;
+    color: var(--accent2-color);  
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.socialmedia a:hover, .socialmedia img {
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.wireframe, .contact-wireframe {
+    padding: 2px;
+    margin-top: 6px;
+    font-size: 12pt;
+    background-color: var(--primary-color);
 }
