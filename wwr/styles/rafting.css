@@ -224,6 +224,7 @@ article {
     font-size: 15pt;
     margin-top: 60px;
     align-content: center;
+    color: var(--accent1-color);
 }
 
 .adventure-gallery img, .employees-gallery img, .activities-gallery img, .trips-gallery img {
@@ -261,6 +262,7 @@ article {
     margin-left: 100px;
     margin-top: 2px;
     font-weight: 200;
+    color: var(--accent1-color);
 }
 .activities-gallery a {
     background-color: rgb(57, 83, 28, .3);
@@ -388,6 +390,7 @@ button:hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: var(--accent1-color);
 }
 
 .table table{
@@ -413,6 +416,7 @@ th {
 td{ 
     font-weight: 200;
     color: var(--accent1-color);
+    font-weight: 500;
 }
 
 .call-to-action h3 {
@@ -420,11 +424,13 @@ td{
     font-weight: 300;
     font-family: "Lexend Zetta", sans-serif;
     padding: 10px;
+    color: var(--accent1-color);
 }
 
 .call-to-action h4 {
     text-align: center;
     margin-top: 5px;
+    color: var(--accent1-color);
 }
 
 .call-to-action nav{
