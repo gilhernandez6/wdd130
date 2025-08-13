@@ -291,6 +291,7 @@ article {
     align-content: center;
     margin-top: 10px;
     font-size: 15pt;
+    font-family: "Inconsolata", sans-serif;
 }
 
 .contact-info {
@@ -343,7 +344,7 @@ button{
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border: none;
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 5px;
 }
 
