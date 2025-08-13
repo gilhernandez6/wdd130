@@ -56,26 +56,10 @@ header {
 header img {
     height: 80px;
 }
-.navigation ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-.navigation li{
-    flex: .1 1 auto
-}
-
-.navigation a {
-    display: block;
-    color: var(--accent2-color);
-    font-size: 17pt;
-    width: 100%;
-    background-color: rgb(57, 83, 28, .3);
-}
 
 a {
     display: block;
-    color: var(--primary-color);   
+    color: var(--accent2-color);   
     font-size: 17pt; 
     height: auto;
     padding: 2px;
@@ -87,13 +71,38 @@ a {
 
 a:link, button:visited, a:visited, button:link {
     text-decoration: none;
-    color: var(--primary-color);  
+    color: var(--accent2-color);  
 }
 
 a:hover {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
+    background-color: #39531C;
 }
 
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: var(--accent2-color);
+
+}
+.navigation li{
+    flex: .1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: var(--accent2-color);
+    font-size: 17pt;
+    width: 100%;
+    background-color: rgb(57, 83, 28, .3);
+    font-family: "Inconsolata", sans-serif;
+}
+.activities-gallery a {
+    background-color: rgb(57, 83, 28, .3);
+    width: fit-content;
+    box-shadow: 0 0 3px var(--primary-color);
+}
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -201,6 +210,8 @@ article {
     height: 400px;
     z-index: 4;
     margin-top: 25px;
+    box-shadow: 0 0 10px var(--primary-color);
+
 }
 
 .adventure-gallery, .employees-gallery {
@@ -223,6 +234,7 @@ article {
     width: 200px;
     height: 200px;
     margin-bottom: 10px;
+    box-shadow: 0 0 10px var(--primary-color);
 
 }
 .activities-gallery {
@@ -239,6 +251,8 @@ article {
 
 .activities-gallery img{
     margin-top: 50px;
+    box-shadow: 0 0 10px var(--primary-color);
+
 }
 
 .activities-gallery figcaption {
