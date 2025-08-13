@@ -98,11 +98,7 @@ a:hover {
     background-color: rgb(57, 83, 28, .3);
     font-family: "Inconsolata", sans-serif;
 }
-.activities-gallery a {
-    background-color: rgb(57, 83, 28, .3);
-    width: fit-content;
-    box-shadow: 0 0 3px var(--primary-color);
-}
+
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -252,6 +248,7 @@ article {
 .activities-gallery img{
     margin-top: 50px;
     box-shadow: 0 0 10px var(--primary-color);
+    grid-row: 1/2;
 
 }
 
@@ -265,7 +262,14 @@ article {
     margin-top: 2px;
     font-weight: 200;
 }
-
+.activities-gallery a {
+    background-color: rgb(57, 83, 28, .3);
+    width: fit-content;
+    height:fit-content;
+    box-shadow: 0 0 3px var(--primary-color);
+    justify-content:left  ;
+    grid-row: 2/3;
+}
 .homepage-form fieldset{
     border: none;
     font-family: "Inconsolata", sans-serif;
