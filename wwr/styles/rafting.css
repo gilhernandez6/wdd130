@@ -167,7 +167,7 @@ a:hover {
 }
 
 article {
-    background-color: rgb(57, 83, 28, .3);
+    background-color: rgb(255,255,255, .3);
     width: 250px;
     height: 35px;
     position: absolute;
@@ -305,7 +305,7 @@ article {
 .contact-info article {
     position: relative;
 }
-.contact-info form, .homepage-form form {
+.contact-info form, .homepage-form {
     font-size: 15pt;
     padding-left: 10px;
     width: cover;
