@@ -262,7 +262,7 @@ article {
     color: var(--accent1-color);
 }
 .activities-gallery a {
-    background-color: rgb(57, 83, 28, .3);
+    background-color: rgb(57, 83, 28, .6);
     width: fit-content;
     height:fit-content;
     box-shadow: 0 0 3px var(--primary-color);
